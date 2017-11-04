@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.contbook.spy_d.contbookdemo.MainActivity">
+
+    <Button
+        android:id="@+id/BtnRegister"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/register"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="286dp"
+        android:layout_above="@+id/BtnLogin"
+        android:layout_alignLeft="@+id/BtnLogin"
+        android:layout_alignStart="@+id/BtnLogin"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/background_light"
+        android:layout_marginBottom="37dp" />
+
+    <Button
+        android:id="@+id/BtnLogin"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/login"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="351dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/background_light"
+        android:layout_marginBottom="44dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTBOOK"
+        android:textColor="@color/colorPrimary"
+        android:textSize="32dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        app:srcCompat="@drawable/icon1"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="41dp"
+        android:layout_marginTop="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+</RelativeLayout>

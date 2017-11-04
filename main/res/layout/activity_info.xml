@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.contbook.spy_d.contbookdemo.InfoActivity">
+
+    <Button
+        android:id="@+id/ButtonUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="103dp"
+        android:text="Update"
+        tools:ignore="HardcodedText"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/background_light"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        tools:ignore="TextFields"
+        android:layout_above="@+id/editTextCont"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/editTextCont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Contact No"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_above="@+id/editTextFb"
+        android:layout_alignLeft="@+id/editTextName"
+        android:layout_alignStart="@+id/editTextName"
+        android:layout_marginBottom="13dp" />
+
+    <EditText
+        android:id="@+id/editTextFb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Facebook link"
+        android:layout_above="@+id/editTextLn"
+        android:layout_alignLeft="@+id/editTextCont"
+        android:layout_alignStart="@+id/editTextCont"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/editTextLn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="LinkedIn Link"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/editTextFb"
+        android:layout_alignStart="@+id/editTextFb" />
+
+    <EditText
+        android:id="@+id/editTextGit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="GitHub link"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/editTextLn"
+        android:layout_alignLeft="@+id/editTextLn"
+        android:layout_alignStart="@+id/editTextLn"
+        android:layout_marginTop="11dp" />
+
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Email"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/editTextName"
+        android:layout_alignStart="@+id/editTextName"
+        android:layout_marginTop="18dp"
+
+        />
+
+
+</RelativeLayout>

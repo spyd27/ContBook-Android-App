@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ContBookDemo</string>
+    <string name="login">LOGIN</string>
+    <string name="register">Register</string>
+    <string name="not_registerd_sign_up_here">Not registerd? Sign up here</string>
+    <string name="email_id">Email Id</string>
+    <string name="textview">TextView</string>
+    <string name="log_out">Log out</string>
+    <string name="title_activity_test">test</string>
+    <string name="title_activity_index">IndexActivity</string>
+</resources>
